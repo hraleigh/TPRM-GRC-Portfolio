@@ -1,0 +1,5 @@
+cap_id,risk_id,vendor,severity,finding,required_action,evidence_needed,owner,opened,due,status,closed,closure_evidence
+CAP-001,VR-001,Northline Support Cloud,High,MFA not enforced for all roles that can open customer tickets with PII,Enforce MFA on all workforce and admin accounts with ticket or PII access,Auth standard plus implementation proof or SOC 2 CC6 addendum,Vendor InfoSec,9/1/2026,10/1/2026,Open,,
+CAP-002,VR-002,Northline Support Cloud,Medium,Subprocessor inventory missing two data-hosting providers,Deliver complete subprocessor list and state which can access customer PII,Signed subprocessor list dated within 90 days,Vendor + Legal,9/1/2026,11/1/2026,Open,,
+CAP-003,VR-003,Northline Support Cloud,Medium,Pentest older than 12 months,Provide current independent pentest attestation letter for this service,Attestation letter with date and scope,Vendor,9/1/2026,12/1/2026,Open,,
+CAP-004,VR-005,Payline Workforce SaaS,Medium,DR test for payroll platform older than 12 months,Run BCP/DR test and send dated results with RTO/RPO,Test report or executive summary with date,Vendor + Business owner,9/1/2026,10/30/2026,Open,,

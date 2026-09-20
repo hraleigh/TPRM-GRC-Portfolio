@@ -1,0 +1,34 @@
+# Inherent-risk profile
+**Vendor (simulated):** Northline Support Cloud  
+**Service:** Hosted customer-support CRM  
+**Track:** A — new vendor  
+**Date:** 1 September 2026  
+**Assessor:** TPRM (portfolio sample)
+
+## Relationship
+Northline stores customer name, address, phone, email, and member /
+account identifiers. Agents can view tickets. Free-text tickets may
+include extra sensitive notes. Northline personnel can access records.
+Service is multi-tenant SaaS with more than one subprocessor.
+
+## Inherent scoring
+
+| Factor | Score | Rationale |
+|---|---|---|
+| Data | 3 | Customer PII; possible sensitive ticket notes |
+| Access | 2 | Vendor staff can view production tickets |
+| Criticality | 2 | Primary support channel; not a payment rail |
+| 4th party / hosting | 3 | Cloud SaaS; multiple subprocessors |
+| **Average** | **2.5** | **High** |
+
+## Decision
+High tier. Full information-security assessment. Information Security
+sign-off required. Site visit not scheduled in this sample because
+the service is multi-tenant SaaS; evidence review substitutes unless
+policy requires an on-site for High PII hosts.
+
+## Next step
+NDA confirmed. Vendor assessment questionnaire plus SOC 2, ISO or
+equivalent, pentest attestation, complete subprocessor list, BCP,
+insurance. A CAIQ or SIG would be requested in a live High-tier
+cloud review; not attached in this repo.

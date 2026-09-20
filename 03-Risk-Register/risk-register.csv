@@ -1,0 +1,7 @@
+risk_id,vendor,tier,inherent,residual,risk_statement,domain,framework_refs,treatment,owner,status,next_review,linked_caps
+VR-001,Northline Support Cloud,High,High,High,Customer PII in tickets may be viewed without MFA on all support roles,Access control,SOC2 CC6; NIST PR.AA; ISO A.8.5,Mitigate,Business owner + InfoSec,Open,10/15/2026,CAP-001
+VR-002,Northline Support Cloud,High,High,Medium,Subprocessor list is incomplete so fourth-party PII access is not fully assessed,Fourth party,SOC2 CC9.2; NIST ID.SC; ISO A.5.19,Mitigate,Vendor + TPRM,Open,11/1/2026,CAP-002
+VR-003,Northline Support Cloud,High,High,Medium,No current independent pentest attestation for the production CRM,Testing,SOC2 CC7.1; NIST ID.RA; ISO A.8.8,Mitigate,Vendor,Open,12/1/2026,CAP-003
+VR-004,Northline Support Cloud,High,High,Low,SOC 2 Type II is current; no qualified opinion,Assurance,SOC2 CC4.1,Accept,TPRM,Closed,4/1/2027,
+VR-005,Payline Workforce SaaS,Medium,Medium,Medium,BCP last tested more than 12 months ago for a payroll-critical service,Resilience,SOC2 A1; NIST RC.RP; ISO A.5.29,Mitigate,Vendor + Business owner,Open,10/30/2026,CAP-004
+VR-006,Payline Workforce SaaS,Medium,Medium,Low,Encryption in transit and at rest attested in SOC 2,Encryption,SOC2 CC6.7; NIST PR.DS; ISO A.8.24,Accept,TPRM,Closed,3/1/2027,

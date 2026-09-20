@@ -1,0 +1,21 @@
+question_id,question_short,vendor_profile,nist_csf,soc2,iso27001,hipaa_security,typical_evidence
+Q01,Stores customer PII?,Vendor B CRM,ID.AM,CC2.1,A.5.9,164.308(a)(1),Data inventory or data-flow diagram
+Q02,Hosting region and subprocessors,Vendor B CRM,ID.SC,CC9.2,A.5.19-A.5.22,164.308(b),Architecture overview; subprocessor list
+Q03,Role-based access reviewed quarterly,Vendor B CRM,PR.AA,CC6.1-CC6.3,A.5.15;A.8.2,164.308(a)(4);164.312(a),Access policy; sample access review
+Q04,MFA on PII systems,Vendor B CRM,PR.AA,CC6.1,A.8.5,164.312(a)(2)(i),Auth standard; SOC 2 CC6 narrative
+Q05,Privileged accounts separate and logged,Vendor B CRM,PR.AA,CC6.1-CC6.2,A.8.2-A.8.3,164.308(a)(4),Privileged-access procedure
+Q06,Encryption in transit and at rest,Vendor B CRM,PR.DS,CC6.1;CC6.7,A.8.24,164.312(a)(2)(iv);164.312(e),Encryption standard; SOC 2 / ISO statement
+Q07,Export / bulk download controls,Vendor B CRM,PR.DS,CC6.1,A.8.12,164.312(a);164.312(e),DLP or export-control description
+Q08,Retention and deletion at exit,Vendor B CRM,PR.DS,CC6.5,A.8.10;A.5.34,164.310(d),Retention and data-return procedure
+Q09,Current SOC 2 Type II or ISO 27001,Vendor B CRM,ID.RA;GV.OV,CC4.1,A.5.35,164.308(a)(8),SOC 2 Type II; ISO certificate + SoA
+Q10,SOC 2 exceptions or qualified opinion,Vendor B CRM,ID.RA,CC4.1,A.5.35,164.308(a)(1),SOC 2 opinion and exception section
+Q11,Annual independent pentest,Vendor B CRM,ID.RA;DE.CM,CC7.1,A.8.8,164.308(a)(8),Pentest attestation letter
+Q12,Vuln scan and severity SLA,Vendor B CRM,ID.RA;PR.PS,CC7.1,A.8.8,164.308(a)(1),Vuln-management policy
+Q13,Logging of PII access,Vendor B CRM,DE.CM;DE.AE,CC7.2,A.8.15-A.8.16,164.312(b),Logging standard
+Q14,Incident response and customer notice,Vendor B CRM,RS.MA;RS.CO,CC7.4-CC7.5,A.5.24-A.5.26,164.308(a)(6),IR policy; notice SLA
+Q15,Subprocessors with PII access assessed,Vendor B CRM,ID.SC,CC9.2,A.5.19-A.5.21,164.308(b),Subprocessor TPRM summary
+Q16,Background check and annual training,Vendor B CRM,PR.AT,CC1.4;CC2.2,A.6.1;A.6.3,164.308(a)(3);164.308(a)(5),Screening and awareness policy
+Q17,BCP/DR with RTO/RPO,Vendor B CRM,RC.RP,A1.2-A1.3,A.5.29-A.5.30,164.308(a)(7),BCP/DR summary; last test date
+Q18,Contract: notice audit rights deletion,Vendor B CRM,GV.PO;ID.SC,CC9.2,A.5.20;A.5.31,164.314(a),DPA or security schedule
+Q19,Cyber insurance,Vendor B CRM,GV.RM,CC9.1,A.5.29,n/a,Certificate of insurance
+Q20,Sensitive data in support tickets,Vendor B CRM,PR.DS,CC6.1,A.5.34;A.8.10,164.502 if PHI,Ticket masking / DLP controls
